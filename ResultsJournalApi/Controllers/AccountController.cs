@@ -7,7 +7,7 @@ using ResultsJournalApi.Models;
 namespace ResultsJournalApi.Controllers
 {
     [Route("api/account")]
-    [ApiControllerAttribute]
+    [ApiController]
     public class AccountController : ControllerBase
     {
         private readonly UserManager<User> _userManager;
